@@ -1218,6 +1218,417 @@ Build a color picker that changes page background.
 
 ---
 
+### Day 24: Creating and Modifying Elements
+**Learn:** `createElement()`, `appendChild()`, `removeChild()`, `innerHTML`
+
+#### Exercise 1: Dynamic List Creator
+Dynamically create a list of items from an array.
+
+**Requirements:**
+- Create an array of items
+- Generate HTML list elements dynamically
+- Add items to the DOM
+- Allow adding new items to the list
+
+**HTML Setup:**
+```html
+<div id="listContainer"></div>
+<input type="text" id="newItem" placeholder="Add new item">
+<button id="addBtn">Add Item</button>
+```
+
+**Starter Code:**
+```javascript
+// Day 24 - Exercise 1: Dynamic List Creator
+// Create a list of items from an array
+```
+
+#### Exercise 2: Todo List Manager
+Add and remove items from a todo list.
+
+**Requirements:**
+- Add new todo items
+- Remove existing items
+- Mark items as complete/incomplete
+- Display item count
+
+**HTML Setup:**
+```html
+<div id="todoApp">
+  <input type="text" id="todoInput" placeholder="Enter a task">
+  <button id="addTodo">Add Task</button>
+  <ul id="todoList"></ul>
+  <p id="todoCount">Total tasks: 0</p>
+</div>
+```
+
+**Starter Code:**
+```javascript
+// Day 24 - Exercise 2: Todo List Manager
+// Add and remove items from a todo list
+```
+
+#### Exercise 3: Image Gallery Navigator
+Create a simple image gallery with navigation.
+
+**Requirements:**
+- Display images from an array
+- Add previous/next navigation
+- Show current image index
+- Implement auto-play feature
+
+**HTML Setup:**
+```html
+<div id="gallery">
+  <div id="imageContainer"></div>
+  <div id="controls">
+    <button id="prevBtn">Previous</button>
+    <span id="imageIndex">1 / 5</span>
+    <button id="nextBtn">Next</button>
+    <button id="autoPlayBtn">Auto Play</button>
+  </div>
+</div>
+```
+
+**Starter Code:**
+```javascript
+// Day 24 - Exercise 3: Image Gallery Navigator
+// Create a simple image gallery with navigation
+```
+
+---
+
+### Day 25: Form Handling
+**Learn:** Form validation, preventing default behavior, form data
+
+#### Exercise 1: Registration Form Validator
+Create a registration form with validation.
+
+**Requirements:**
+- Validate email format
+- Check password strength
+- Confirm password match
+- Show error messages
+- Prevent form submission if invalid
+
+**HTML Setup:**
+```html
+<form id="registrationForm">
+  <input type="text" id="username" required>
+  <input type="email" id="email" required>
+  <input type="password" id="password" required>
+  <input type="password" id="confirmPassword" required>
+  <button type="submit">Register</button>
+</form>
+<div id="errors"></div>
+```
+
+**Starter Code:**
+```javascript
+// Day 25 - Exercise 1: Registration Form Validator
+// Create a registration form with validation
+```
+
+#### Exercise 2: Calculator with Form Interface
+Build a calculator with a form interface.
+
+**Requirements:**
+- Create input fields for numbers
+- Add operation buttons
+- Display result
+- Handle division by zero
+- Clear functionality
+
+**HTML Setup:**
+```html
+<form id="calcForm">
+  <input type="number" id="num1" required>
+  <input type="number" id="num2" required>
+  <button data-op="add">+</button>
+  <button data-op="subtract">-</button>
+  <button data-op="multiply">×</button>
+  <button data-op="divide">÷</button>
+  <button id="calculate">Calculate</button>
+</form>
+<div id="result"></div>
+```
+
+**Starter Code:**
+```javascript
+// Day 25 - Exercise 2: Calculator with Form Interface
+// Build a calculator with a form interface
+```
+
+#### Exercise 3: Contact Form with Data Display
+Make a contact form that displays submitted data.
+
+**Requirements:**
+- Collect user contact information
+- Validate required fields
+- Display submitted data in a formatted way
+- Option to edit submitted information
+
+**HTML Setup:**
+```html
+<form id="contactForm">
+  <input type="text" id="fullName" required>
+  <input type="email" id="email" required>
+  <input type="tel" id="phone">
+  <textarea id="message" required></textarea>
+  <button type="submit">Submit</button>
+</form>
+<div id="submittedData"></div>
+```
+
+**Starter Code:**
+```javascript
+// Day 25 - Exercise 3: Contact Form with Data Display
+// Make a contact form that displays submitted data
+```
+
+---
+
+### Day 26: Mini Project - Todo List
+**Apply:** All previous concepts
+
+#### Exercise 1: Basic Todo List
+**Requirements:**
+- Add new todos
+- Delete todos
+- Mark todos as complete/incomplete
+- Show completion status visually
+
+**HTML Setup:**
+```html
+<div id="todoApp">
+  <input type="text" id="todoInput">
+  <button id="addTodo">Add</button>
+  <ul id="todoList"></ul>
+</div>
+```
+
+**Starter Code:**
+```javascript
+// Day 26 - Exercise 1: Basic Todo List
+// Create a todo list with add, delete, and mark complete functionality
+```
+
+#### Exercise 2: Todo List with Local Storage
+**Requirements:**
+- Save todos to localStorage
+- Load todos on refresh
+- Sync changes with storage
+
+**Starter Code:**
+```javascript
+// Day 26 - Exercise 2: Todo List with Local Storage
+// Add local storage to persist todos between sessions
+```
+
+#### Exercise 3: Todo List with Filtering
+**Requirements:**
+- Filter all, active, and completed todos
+- Update view dynamically
+
+**HTML Setup:**
+```html
+<div id="todoFilters">
+  <button data-filter="all">All</button>
+  <button data-filter="active">Active</button>
+  <button data-filter="completed">Completed</button>
+</div>
+```
+
+**Starter Code:**
+```javascript
+// Day 26 - Exercise 3: Todo List with Filtering
+// Implement filtering (all, active, completed tasks)
+```
+
+---
+
+### Day 27: Mini Project - Weather App
+**Apply:** DOM manipulation, basic API concepts
+
+#### Exercise 1: Weather Display Interface
+**Requirements:**
+- Show current weather info
+- Display temperature, description, humidity
+- Use mock data
+
+**HTML Setup:**
+```html
+<div id="weatherDisplay">
+  <div id="cityName"></div>
+  <div id="temperature"></div>
+  <div id="description"></div>
+</div>
+```
+
+**Starter Code:**
+```javascript
+// Day 27 - Exercise 1: Weather Display Interface
+// Create a simple weather display interface
+```
+
+#### Exercise 2: Multi-City Weather Switcher
+**Requirements:**
+- Select from multiple cities
+- Display different weather data
+- Handle missing data gracefully
+
+**HTML Setup:**
+```html
+<select id="citySelect">
+  <option value="ny">New York</option>
+  <option value="london">London</option>
+</select>
+<button id="refreshWeather">Refresh</button>
+```
+
+**Starter Code:**
+```javascript
+// Day 27 - Exercise 2: Multi-City Weather Switcher
+// Add functionality to switch between cities
+```
+
+#### Exercise 3: 5-Day Forecast Display
+**Requirements:**
+- Show forecast data in cards
+- Display icons and descriptions
+- Make responsive layout
+
+**HTML Setup:**
+```html
+<div id="forecastSection">
+  <div id="forecastContainer"></div>
+</div>
+```
+
+**Starter Code:**
+```javascript
+// Day 27 - Exercise 3: 5-Day Forecast Display
+// Implement a 5-day forecast display
+```
+
+---
+
+### Day 28: Mini Project - Calculator
+**Apply:** Functions, DOM events, error handling
+
+#### Exercise 1: Basic Calculator
+**Requirements:**
+- Perform +, -, ×, ÷
+- Clear and decimal support
+- Handle invalid inputs
+
+**HTML Setup:**
+```html
+<div id="calculator">
+  <div id="display"></div>
+  <div id="buttons"> <!-- Number and operator buttons --> </div>
+</div>
+```
+
+**Starter Code:**
+```javascript
+// Day 28 - Exercise 1: Basic Calculator
+// Build a basic calculator with core operations
+```
+
+#### Exercise 2: Calculator with Memory Functions
+**Requirements:**
+- Store/recall/clear memory
+- Display memory status visually
+
+**Starter Code:**
+```javascript
+// Day 28 - Exercise 2: Calculator with Memory Functions
+// Add memory features to the calculator
+```
+
+#### Exercise 3: Calculator with Keyboard Support
+**Requirements:**
+- Support keyboard input for all calculator features
+- Handle special keys (Enter, Escape)
+
+**Starter Code:**
+```javascript
+// Day 28 - Exercise 3: Calculator with Keyboard Support
+// Add keyboard interaction for calculator
+```
+
+---
+
+### Day 29: Code Review and Optimization
+**Focus:** Refactoring, best practices, debugging
+
+#### Exercise 1: Code Review and Optimization
+**Requirements:**
+- Find and fix code smells
+- Refactor repetitive logic
+- Improve readability
+
+**Starter Code:**
+```javascript
+// Day 29 - Exercise 1: Code Review and Optimization
+// Review and optimize code from previous projects
+```
+
+#### Exercise 2: Error Handling Implementation
+**Requirements:**
+- Add try-catch blocks
+- Show user-friendly error messages
+- Log errors properly
+
+**Starter Code:**
+```javascript
+// Day 29 - Exercise 2: Error Handling Implementation
+// Add robust error handling across apps
+```
+
+#### Exercise 3: Documentation and Comments
+**Requirements:**
+- Add clear function comments
+- Use inline comments for complex logic
+- Write basic README for each project
+
+**Starter Code:**
+```javascript
+// Day 29 - Exercise 3: Documentation and Comments
+// Write documentation for your codebase
+```
+
+---
+
+### Day 30: Final Challenge Project
+**Create:** A complete application using all learned concepts
+
+#### Option 1: Personal Portfolio Site
+**Requirements:**
+- Responsive layout
+- Project showcase
+- Contact form with validation
+- Smooth transitions and interactivity
+
+#### Option 2: Expense Tracker
+**Requirements:**
+- Add/edit/delete transactions
+- Category support
+- Chart display
+- Data persistence
+
+#### Option 3: Quiz Application
+**Requirements:**
+- Multiple-choice quiz
+- Score tracking and feedback
+- Timer, categories, difficulty levels
+
+**Starter Code:**
+```javascript
+// Day 30 - Final Challenge Project
+// Build a complete app based on your chosen project
+```
 
 
 
