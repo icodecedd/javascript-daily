@@ -1,7 +1,7 @@
 # Daily Progress Tracker
 
 ## Week 1: Foundations
-- [ ] **Day 1:** Variables and Data Types - [Date completed]
+- [✔] **Day 1:** Variables and Data Types - [Date completed]
 - [ ] **Day 2:** String Manipulation - [Date completed]
 - [ ] **Day 3:** Basic Math and Operators - [Date completed]
 - [ ] **Day 4:** Conditional Statements - [Date completed]
