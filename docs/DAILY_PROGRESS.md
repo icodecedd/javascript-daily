@@ -2,8 +2,8 @@
 
 ## Week 1: Foundations
 - [✔] **Day 1:** Variables and Data Types - [July 07, 2025]
-- [ ] **Day 2:** String Manipulation - [Date completed]
-- [ ] **Day 3:** Basic Math and Operators - [Date completed]
+- [✔] **Day 2:** String Manipulation - [July 08, 2025]
+- [✔] **Day 3:** Basic Math and Operators - [July 09, 2025]
 - [ ] **Day 4:** Conditional Statements - [Date completed]
 - [ ] **Day 5:** Loops - Part 1 - [Date completed]
 - [ ] **Day 6:** Loops - Part 2 - [Date completed]
