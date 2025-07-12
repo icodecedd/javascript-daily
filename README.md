@@ -5,6 +5,7 @@ A comprehensive 30-day JavaScript learning challenge designed to take you from b
 ## 📋 Challenge Overview
 
 This challenge is structured over 4 weeks:
+
 - **Week 1:** Foundations (Variables, Strings, Conditionals, Loops, Functions)
 - **Week 2:** Functions & Arrays (Advanced Functions, Array Methods, Objects)
 - **Week 3:** Advanced Concepts (Closures, Error Handling, Regex, Async)
@@ -13,6 +14,7 @@ This challenge is structured over 4 weeks:
 ## 🎯 Learning Objectives
 
 By the end of this challenge, you will be able to:
+
 - Write clean, readable JavaScript code
 - Understand and use all basic JavaScript concepts
 - Build interactive web applications
@@ -31,6 +33,7 @@ By the end of this challenge, you will be able to:
 ## 🗓️ Daily Structure
 
 Each day includes:
+
 - **Learning objectives** for the day
 - **Minimum 3 exercises** to complete
 - **Bonus challenges** for extra practice
