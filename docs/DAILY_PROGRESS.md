@@ -8,11 +8,11 @@
 - [✔] **Day 4:** Conditional Statements - [July 10, 2025]
 - [✔] **Day 5:** Loops - Part 1 - [July 11, 2025]
 - [✔] **Day 6:** Loops - Part 2 - [July 12, 2025]
-- [ ] **Day 7:** Functions - Basics - [Date completed]
+- [✔] **Day 7:** Functions - Basics - [July 13, 2025]
 
 ## Week 2: Functions and Arrays
 
-- [ ] **Day 8:** Functions - Advanced - [Date completed]
+- [✔] **Day 8:** Functions - Advanced - [July 14, 2025]
 - [ ] **Day 9:** Arrays - Basics - [Date completed]
 - [ ] **Day 10:** Arrays - Iteration - [Date completed]
 - [ ] **Day 11:** Array Methods - Part 1 - [Date completed]
