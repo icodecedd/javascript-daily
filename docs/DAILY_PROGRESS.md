@@ -14,7 +14,7 @@
 
 - [✔] **Day 8:** Functions - Advanced - [July 14, 2025]
 - [✔] **Day 9:** Arrays - Basics - [July 15, 2025]
-- [ ] **Day 10:** Arrays - Iteration - [Date completed]
+- [✔] **Day 10:** Arrays - Iteration - [July 16, 2025]
 - [ ] **Day 11:** Array Methods - Part 1 - [Date completed]
 - [ ] **Day 12:** Array Methods - Part 2 - [Date completed]
 - [ ] **Day 13:** Objects - Basics - [Date completed]
