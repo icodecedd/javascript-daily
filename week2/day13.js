@@ -1,5 +1,5 @@
 /*
- *  // Day 12 - Exercise 1: Person Profile
+ *  // Day 13 - Exercise 1: Person Profile
  *  Create a person object with various properties.
  */
 
@@ -25,7 +25,7 @@ console.log(`City: ${cityBracket}`);
 console.log(`Occupation: ${occupationBracket}\n`);
 
 /*
- *  // Day 12 - Exercise 2: Object with Methods
+ *  // Day 13 - Exercise 2: Object with Methods
  *  Add methods to a person object.
  */
 
@@ -37,13 +37,13 @@ const secondPerson = {
 
   // Add a method that introduces the person
   introduce() {
-    return `Hi, I'm ${this.name}, a ${this.age}-year-old ${this.occupation} from ${this.city}.`;
+    return `Hi, I'm ${secondPerson.name}, a ${secondPerson.age}-year-old ${secondPerson.occupation} from ${secondPerson.city}.`;
   },
 
   // Add a method that calculates birth year
   getBirthYear() {
     const currentYear = new Date().getFullYear();
-    return currentYear - this.age;
+    return currentYear - secondPerson.age;
   },
 };
 
@@ -51,7 +51,7 @@ console.log(secondPerson.introduce());
 console.log(`I was born in ${secondPerson.getBirthYear()}.\n`);
 
 /*
- *  // Day 12 - Exercise 3: Car Information System
+ *  // Day 13 - Exercise 3: Car Information System
  *  Create a car object and access its properties dynamically.
  */
 const car = {
