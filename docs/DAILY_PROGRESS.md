@@ -23,8 +23,8 @@
 ## Week 3: Advanced Concepts
 
 - [✔] **Day 15:** Higher-Order Functions - [July 21, 2025]
-- [ ] **Day 16:** Closures and Scope - [Date completed]
-- [ ] **Day 17:** Error Handling - [Date completed]
+- [✔] **Day 16:** Closures and Scope - [July 23, 2025]
+- [✔] **Day 17:** Error Handling - [July 23, 2025]
 - [ ] **Day 18:** Regular Expressions - [Date completed]
 - [ ] **Day 19:** Date and Time - [Date completed]
 - [ ] **Day 20:** JSON and Local Storage - [Date completed]
