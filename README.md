@@ -39,9 +39,9 @@ By completing this challenge, you will be able to:
 
 1. **Fork this repository** to your own GitHub account  
 2. **Clone your fork** to your local machine  
-3. Follow the daily challenges inside the [Challenge Guide](/docs/CHALLENGE_GUIDE.md)  
+3. Follow the daily challenges inside the [Challenge Guide](docs/CHALLENGES.md)  
 4. Work on the **daily exercises** inside the respective day folders  
-5. Update your [Daily Progress Log](/docs/DAILY_PROGRESS.md) as you go  
+5. Update your [Daily Progress Log](docs/DAILY_PROGRESS.md) as you go  
 6. **Commit and push your work daily** to maintain your coding streak  
 
 ---
